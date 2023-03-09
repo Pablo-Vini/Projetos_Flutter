@@ -7,7 +7,10 @@ void main() {
     title: "Frases do dia",
     home: Column(
       children: <Widget>[
-        Text("Usuário: "),
+        Text(
+          "Usuário: ",
+          style: TextStyle(color: Colors.black12, fontSize: 20),
+        ),
         Text("Senha:"),
         Text("Esqueci minha senha:")
       ],
